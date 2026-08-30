@@ -1,22 +1,25 @@
 function Hero() {
   return (
-    <section id="home" className="hero">
+    <section className="hero">
       <div className="hero-content">
-        <p className="hero-tagline">Fresh • Natural • Farm Grown</p>
+        <p className="hero-subtitle">FRESH FROM OUR FARM</p>
 
-        <h1>Fresh Mangoes, Straight From Our Farm 🥭</h1>
+        <h1>Naturally Grown, Delicious Mangoes</h1>
 
         <p className="hero-description">
-          Naturally grown mangoes, cultivated with care and delivered with
-          freshness.
+          From our farm to your table. Fresh, naturally grown mangoes cultivated
+          with care.
         </p>
 
-        <button>Explore Our Mangoes</button>
+        <div className="hero-buttons">
+          <button>Explore Our Mangoes</button>
+          <button>Contact Us</button>
+        </div>
       </div>
 
       <div className="hero-image">
         <img
-          src="https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=900&q=80"
+          src="https://images.unsplash.com/photo-1553279768-865429fa0078"
           alt="Fresh mangoes"
         />
       </div>
