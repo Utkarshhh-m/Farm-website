@@ -131,9 +131,6 @@ function App() {
       <Hero />
       <About />
       <Mangoes />
-
-      <h1>Our Mango Farm 🥭</h1>
-      <p>Fresh mangoes, grown with care.</p>
     </div>
   );
 }
