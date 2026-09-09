@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +69,7 @@ nav a:hover {
 }
 
 .hero button {
-  padding: 14px 28px;
+  padding: 15px 30px;
   border: none;
   border-radius: 8px;
   background-color: #d88900;
@@ -79,7 +77,7 @@ nav a:hover {
   font-size: 16px;
   cursor: pointer;
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .hero button:hover {
@@ -96,6 +94,7 @@ nav a:hover {
   height: 500px;
   object-fit: cover;
   border-radius: 20px;
+  overscroll-behavior-inline: flip;
 }
 
 #home h1 {
@@ -202,11 +201,14 @@ nav a:hover {
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .mango-card:hover {
   transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .mango-card h3 {
@@ -242,6 +244,7 @@ nav a:hover {
 
   .hero-buttons {
     justify-content: center;
+    display: flex;
   }
 
   .hero-image {
@@ -270,16 +273,15 @@ nav a:hover {
     font-size: 32px;
   }
 
-
-  .mangoes{
+  .mangoes {
     padding: 70px 20px;
   }
 
-  .section-heading{
+  .section-heading {
     margin-bottom: 40px;
   }
 
-  .mango-card{
+  .mango-card {
     padding: 30px;
   }
 
@@ -290,6 +292,6 @@ nav a:hover {
 
   .section-heading h2 {
     font-size: 32px;
-    color:peru;
+    color: peru;
   }
 }
