@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #fffdf5;
   color: #2f3e1f;
 }
@@ -15,10 +15,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  background-color: #ffffff;
+  background-color: #e8ccad;
 }
 
 nav h2 {
+  
   font-size: 24px;
   color: maroon;
 }
@@ -40,6 +41,7 @@ nav a:hover {
   justify-content: space-between;
   gap: 50px;
   padding: 60px 8%;
+  background-color: #f4ece1;
 }
 
 .hero-content {
@@ -48,7 +50,7 @@ nav a:hover {
 }
 
 .hero-subtitle {
-  color: #d88900;
+  color: #ec802b;
   font-weight: bold;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -118,6 +120,7 @@ nav a:hover {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  gap: 20px;
 }
 
 #home button:hover {
@@ -129,7 +132,7 @@ nav a:hover {
   align-items: center;
   gap: 70px;
   padding: 100px 8%;
-  background-color: #ffffff;
+  background-color: #f7efda;
 }
 
 .about-image {
@@ -171,7 +174,7 @@ nav a:hover {
 
 .mangoes {
   padding: 100px 8%;
-  background-color: #fffdf5;
+  background-color: #f7efda;
 }
 
 .section-heading {
@@ -260,7 +263,7 @@ nav a:hover {
 
 .contact {
   padding: 100px 8%;
-  background-color: #fffdf5;
+  background-color: #f7efda;
 }
 
 .contact-form {
@@ -327,8 +330,8 @@ nav a:hover {
 /* Footer */
 
 .footer {
-  background-color: #2f3e1f;
-  color: white;
+  background-color: #4f664c;
+  color: #f4ece1;
   padding: 60px 8% 20px;
 }
 
@@ -363,7 +366,7 @@ nav a:hover {
 }
 
 .footer-links a:hover {
-  color: #d88900;
+  color: blue;
 }
 
 .footer-contact p {

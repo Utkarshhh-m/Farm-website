@@ -20,8 +20,8 @@ function Footer() {
 
         <div className="footer-contact">
           <h3>Get In Touch</h3>
-          <p>📞 +91 XXXXX XXXXX</p>
-          <p>✉️ farm@example.com</p>
+          <p>📞 +91 8381042845</p>
+          <p>✉️ mandharefarm@gmail.com</p>
           <p>📍 Your Farm Location</p>
         </div>
       </div>
