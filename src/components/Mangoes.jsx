@@ -29,10 +29,11 @@ function Mangoes() {
 
         <p>Every variety has its own unique taste, aroma, and character.</p>
       </div>
-
+ 
       <div className="mango-grid">
         {mangoes.map((mango) => (
           <div className="mango-card" key={mango.name}>
+            <img src={mango.image} alt={mango.name} />
             <h3>{mango.name}</h3>
 
             <p>{mango.description}</p>
