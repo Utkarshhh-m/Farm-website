@@ -88,3 +88,81 @@ function Contact() {
 }
 
 export default Contact;
+
+/*
+function Contact() {
+  // Keep your existing form state and submit handler here.
+
+  return (
+    <section id="contact" className="contact">
+      <div className="contact-intro">
+        <p className="section-tagline">LET'S CONNECT</p>
+        <h2>
+          Something Sweet <span>Starts Here.</span>
+        </h2>
+        <p>
+          Curious about our mangoes? Have questions about the season or
+          availability? We'd love to hear from you.
+        </p>
+        <div className="contact-note">
+          <span>🥭</span>
+          <p>Fresh mangoes, friendly conversations.</p>
+        </div>
+      </div>
+
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <div className="form-field">
+          <label htmlFor="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-field">
+          <label htmlFor="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-field">
+          <label htmlFor="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tell us what you'd like to know..."
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <button type="submit" className="contact-submit">
+          Send Your Message <span>→</span>
+        </button>
+
+        {successMessage && (
+          <p className="success-message" role="status">
+            {successMessage}
+          </p>
+        )}
+      </form>
+    </section>
+  );
+}
+
+export default Contact;
+*/
