@@ -1,16 +1,96 @@
-# React + Vite
+# 🥭 Mango Farm Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website for a mango farm, built with React.js to showcase mango varieties, share information about the farm, and help customers get in touch.
 
-Currently, two official plugins are available:
+This project is being developed as a hands-on learning experience to strengthen my frontend development skills and build a foundation for a full-stack web application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Hero Section:** Introduces the farm and welcomes visitors.
+- **About Our Farm:** Shares information about the farm and its approach to cultivation.
+- **Mango Varieties:** Showcases different mango varieties, including Alphonso, Kesar, and Dasheri.
+- **Contact Form:** Allows visitors to enter their name, email, and message, with an interactive submission response.
+- **WhatsApp Integration:** Helps customers connect with the farm for enquiries and orders.
+- **Responsive Design:** Adapts the layout for desktop, tablet, and mobile screens.
+- **Footer:** Provides contact information and useful links.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js** – Building reusable UI components.
+- **Vite** – Development server and build tool.
+- **JavaScript (ES6+)** – Application logic and interactivity.
+- **HTML5** – Website structure.
+- **CSS3** – Styling and responsive layouts.
+- **Git & GitHub** – Version control and source code hosting.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git (optional, for version control)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Utkarshhh-m/Farm-website.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Farm site
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal, usually `http://localhost:5173/`.
+
+## 📦 Production Build
+
+To create a production-ready build, run:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🎯 Project Goals
+
+- Apply React concepts through a practical project.
+- Build reusable and maintainable components.
+- Develop responsive user interfaces.
+- Learn Git and GitHub workflows.
+- Expand the project toward a full-stack application.
+
+## 🔮 Future Improvements
+
+- Deploy the website publicly.
+- Connect the contact form to a backend service.
+- Add backend functionality for customer enquiries and orders.
+- Improve product imagery and mango variety details.
+- Explore database integration as the project evolves.
+
+## 👨‍💻 Author
+
+Developed as a personal learning project focused on React.js and full-stack web development.
