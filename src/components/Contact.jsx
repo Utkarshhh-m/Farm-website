@@ -4,22 +4,23 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [Error, setError] = useState("");
 
   function handleSubmit(e) {
-  e.preventDefault();
+    e.preventDefault();
 
-  if (!name || !email || !message) {
-    setError("Please fill in all fields.");
-    return;
+    if (!name || !email || !message) {
+      setError("Please fill in all fields.");
+      return;
+    }
+
+    setError("");
+    setSubmitted(true);
+
+    setName("");
+    setEmail("");
+    setMessage("");
   }
-
-  setError("");
-  setSubmitted(true);
-
-  setName("");
-  setEmail("");
-  setMessage("");
-}
   return (
     <section id="contact" className="contact">
       <div className="section-heading">
@@ -69,10 +70,9 @@ function Contact() {
             placeholder="Write your message..."
             value={message}
             onChange={(e) => {
-              setMessage(e.target.value)
-              setSubmitted(false)
+              setMessage(e.target.value);
+              setSubmitted(false);
             }}
-
           ></textarea>
         </div>
 
@@ -82,7 +82,7 @@ function Contact() {
         <p className="success-message">
           Thank you for contacting us! Your message has been received. 🥭
         </p>
-)}
+      )}
     </section>
   );
 }

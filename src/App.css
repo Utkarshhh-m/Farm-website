@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: #fffdf5;
   color: #2f3e1f;
 }
@@ -19,7 +19,6 @@ nav {
 }
 
 nav h2 {
-  
   font-size: 24px;
   color: maroon;
 }
@@ -381,6 +380,18 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
+  nav {
+    padding: 20px;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
   .hero {
     flex-direction: column;
     text-align: center;

@@ -22,12 +22,12 @@ function Footer() {
           <h3>Get In Touch</h3>
           <p>📞 +91 8381042845</p>
           <p>✉️ mandharefarm@gmail.com</p>
-          <p>📍 Your Farm Location</p>
+          <a href="https://www.google.com/maps/@18.1397401,73.5753272,338m"><p> Farm Location</p></a>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© 2026 Our Mango Farm. All rights reserved.</p>
+        <p>© 2026 Mandhare's Farm. All rights reserved.</p>
       </div>
     </footer>
   );
